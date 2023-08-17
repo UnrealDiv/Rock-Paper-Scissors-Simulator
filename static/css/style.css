@@ -5,4 +5,48 @@ html, body {
 
 canvas {
   display: block;
+  background-color: #f0f0f0;
+}
+
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  canvas {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+
+  .rock, .paper, .scissors {
+    width: 80px;
+    height: 80px;
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+
+
+@media (max-width: 480px) {
+ 
+  body {
+    font-size: 12px;
+  }
+
+  canvas {
+    padding: 10px;
+  }
+
+  
+  .rock, .paper, .scissors {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    margin: 5px; 
+  }
 }
